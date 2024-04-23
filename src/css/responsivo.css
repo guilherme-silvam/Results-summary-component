@@ -1,0 +1,48 @@
+
+@media (min-width:1200px ) {  
+    main {
+    position: absolute;
+     margin: auto;
+    top:0 ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 60%;  
+    font-size: 18px; 
+    border-radius: 30px;
+    display: inline-block;
+    max-width: 960px;
+    background-color: hsl(0, 0%, 100%);
+    }
+    
+    .resultado {
+        background: linear-gradient(to right, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+        height: 100%;
+        max-width: 380px;
+        text-align: center;
+        padding: 35px;
+        border-radius: 30px;
+        float: left;
+    }
+
+    .sumario{
+        background-color: hsl(0, 0%, 100%);
+        height: 100%;
+        min-width: 370px;
+        text-align: center;
+        padding: 35px;
+        border-radius: 30px;
+        float: right;
+        
+    }
+
+    .sumario ul{
+        margin: 20px 10px 20px 10px;
+        height: 60%;
+        text-align: left;
+
+    
+    }
+    
+} 
