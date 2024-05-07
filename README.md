@@ -45,11 +45,12 @@ Os usuários devem ser capazes de:
 
 ### O que eu aprendi
 
-Usei este projeto para aprimorar minhas habilidades de responsividade e aprendi algumas práticas úteis. Descobri que prefiro começar o desenvolvimento focando no layout para dispositivos móveis e, em seguida, expandir para telas maiores, como as de computador. Essa abordagem me ajudou a garantir uma experiência consistente em diferentes tamanhos de tela e a melhorar minha compreensão da responsividade.
+Este projeto foi uma excelente oportunidade para aprimorar minhas habilidades de responsividade e para aprender mais sobre o uso do Flexbox e suas funcionalidades.Melhorei minha compreensão do Flexbox e como ele pode ser utilizado para criar layouts flexíveis e responsivos. Ao aprender a usar propriedades como flex-direction, justify-content e align-items, pude criar layouts mais dinâmicos e adaptáveis, proporcionando uma experiência mais agradável aos usuários em uma variedade de dispositivos. Essas novas habilidades serão valiosas para meus projetos futuros, permitindo-me criar designs mais eficientes e robustos.
 
 ### Desenvolvimento contínuo
 
-Planejo continuar aprimorando minhas habilidades de desenvolvimento, especialmente em áreas específicas. Tenho o objetivo de aperfeiçoar meu conhecimento sobre técnicas de posicionamento, como o uso flexbox, para criar layouts mais flexíveis e eficientes. Além disso, pretendo concentrar meus esforços em melhorar ainda mais a responsividade dos meus projetos, garantindo uma experiência perfeita em uma ampla variedade de dispositivos e tamanhos de tela.
+
+Planejo continuar aprimorando minhas habilidades de desenvolvimento, especialmente em áreas específicas. Tenho o objetivo de aperfeiçoar meu conhecimento sobre técnicas de posicionamento, como o uso do flexbox e do grid, para criar layouts mais flexíveis, eficientes e dinâmicos. Além disso, pretendo concentrar meus esforços em melhorar ainda mais a responsividade dos meus projetos, garantindo uma experiência perfeita em uma ampla variedade de dispositivos e tamanhos de tela. Estou animado para explorar mais a fundo o grid CSS e suas capacidades, pois sei que isso me ajudará a criar layouts mais complexos e sofisticados de forma mais eficiente. Com esses objetivos em mente, estou confiante de que continuarei a evoluir como desenvolvedor e a entregar projetos de alta qualidade no futuro.
 
 
 ## Autor

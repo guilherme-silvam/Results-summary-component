@@ -8,88 +8,104 @@ body {
 }
 
 main {
-    background-color: hsl(0, 0%, 100%);
+    
     width: 100vw;
     height: 100vh;
     font-size: 18px;
-    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .resultado {
     background: linear-gradient(to right, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
-    height: 50%;
-    max-width: 790px;
-    text-align: center;
-    padding: 35px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-
-.resultado h3 {
-    color: hsl(241, 100%, 89%);
-}
-
-.resultado .icone-resultado {
-    background: linear-gradient(to left, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 800;
-    color: hsl(0, 0%, 100%);
-}
-
-.icone-resultado:hover{
-    background: linear-gradient(to right, #9efab5, #7be79d);;
-}
-
-.resultado .icone-resultado p {
-    padding: 25%;
-}
-
-.icone-resultado p:hover{
-    color: #000000;
-}
-
-.resultado .icone-resultado span {
-    display: block;
-    font-size: 16px;
-    color: hsl(241, 100%, 89%);
-}
-
-.resultado h2 {
-    margin-top: 20px;
-    color: hsl(0, 0%, 100%);
-}
-
-.resultado p {
-    margin-top: 20px;
-    color: hsl(241, 100%, 89%)
-}
-
-.sumario{
-    background-color:hsl(0, 0%, 100%);
-    height: 50%;
-    max-width: 790px;
+    height: 450px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     border-radius: 30px;
 }
 
+.resultado h3 {
+    color: hsl(241, 100%, 89%);
+    margin: 20px;
+}
+
+.resultado .icone-resultado {
+    background: linear-gradient(to left, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    color: hsl(0, 0%, 100%);
+    align-self: center;
+    display:flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    margin: 20px;
+}
+
+.resultado .icone-resultado-filho{
+    align-self: center;
+    margin: auto;
+}
+
+.resultado .icone-resultado-filho p{
+    font-size: 70px;
+}
+
+
+.icone-resultado:hover{
+    background: linear-gradient(to left, 
+    hsla(241, 80%, 30%, 1), 
+    hsla(248, 72%, 40%, 1), 
+    hsla(256, 72%, 46%, 1)); 
+
+}
+
+
+.resultado .icone-resultado span {
+    
+    font-size: 16px;
+    color: hsl(241, 100%, 89%);
+    display: block;
+}
+
+.resultado h2 {
+    color: hsl(0, 0%, 100%);
+    margin: 20px;
+}
+
+.resultado p { 
+    color: hsl(241, 100%, 89%);
+    margin: 20px;   
+}
+
+.sumario{
+    background-color:hsl(0, 0%, 100%);
+    height: 450px;
+    width: 25%;
+    display: flex;
+    flex-direction: column ;
+    border-radius: 30px;
+    
+    
+}
+
 .sumario h3{
     color: hsl(224, 30%, 27%) ;
-    margin: 25px; 
+    align-self: flex-start;
+    margin: 20px;
 }
 
-.sumario ul{
-    margin: 30px 40px 5px 40px;
-    height: 60%;
-    text-align: left;
-
+.sumario .tabela{
+    margin: 20px;
+     
 }
 
+.sumario .tabela li{
+    margin: 10px;
+    padding: 10px;
+}
 
 #linha-1{
     margin: 15px;
@@ -127,16 +143,17 @@ main {
 
  .nota{
     display: inline-block;
-    float: right;
+    margin-left: 48%;
     color: hsl(224, 30%, 27%) ;
     font-weight: 800;
+    
 }
 
 .nota-100{
     color: #fff; ;
 }
 
-button{
+.sumario button{
     padding: 15px;
     width: 60%;
     border-radius: 40px;
@@ -144,8 +161,21 @@ button{
     color:hsl(0, 0%, 100%); 
     font-size: 20px;
     border: 1px solid ;
+    align-self: center;
 }
 
 button:hover{
-    background: linear-gradient(to right, hsl(234, 85%, 45%), hsla(256, 72%, 46%, 1));
+    
+        background: linear-gradient(to left, 
+        hsla(241, 80%, 30%, 1), 
+        hsla(248, 72%, 40%, 1), 
+        hsla(256, 72%, 46%, 1)); 
+    
+    
 }
+
+
+
+
+
+
